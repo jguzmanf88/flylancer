@@ -1,0 +1,61 @@
+{
+    "emp": [{
+        "desc": "",
+        "mail": "",
+        "tel": ""
+    }],
+    "form": [{
+        "tit": "¡Nos encantará saber de ti!",
+        "msg": "<strong>¡Gracias!</strong> Hemos recibido tu mensaje.",
+        "opc": [{
+                "input": "input",
+                "place": "Nombre",
+                "name": "name",
+                "type": "text"
+            },
+            {
+
+                "input": "input",
+                "place": "Email",
+                "name": "mail",
+                "type": "email"
+            },
+            {
+                "txtarea": "textarea",
+                "place": "Comentarios",
+                "name": "msg"
+            },
+            {
+                "btn": "button",
+                "place": "Enviar mensaje"
+            }
+        ]
+    }],
+    "menu": [{
+            "tit": "Acerca",
+            "href": "",
+            "same": "same"
+        },
+        {
+            "tit": "Proyectos",
+            "href": "",
+            "same": "same"
+        },
+        {
+            "tit": "Servicios",
+            "href": "",
+            "same": "same"
+        },
+        {
+            "tit": "Testimonios",
+            "href": "",
+            "same": "same"
+        },
+        {
+            "tit": "Costos",
+            "href": "",
+            "same": "same"
+        }
+
+    ]
+}

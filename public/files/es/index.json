@@ -1,0 +1,139 @@
+{
+    "sld": [{}],
+    "emp": [{
+        "about": [{
+            "tit": "Acerca",
+            "cont": "Flylancer es una empresa mexicana que nace con la finalidad de ofrecer servicios en la nube de alta calidad al mejor precio, 7 años de experiencia nos respaldan.",
+            "img": "http://placehold.it/570x715"
+        }],
+        "team": [{}],
+        "work": [{
+            "tit": "Proyectos"
+        }],
+        "servs": [{
+            "tit": "Servicios",
+            "serv": [{
+                    "tit": "Desarrollo web a la medida",
+                    "ico": "",
+                    "cont": "",
+                    "img": ""
+                },
+                {
+                    "tit": "Tu página web en 4 días a un gran costo",
+                    "ico": "",
+                    "cont": "",
+                    "img": ""
+                },
+                {
+                    "tit": "Alojamiento web (Web Hosting)",
+                    "ico": "",
+                    "cont": "",
+                    "img": ""
+                },
+                {
+                    "tit": "Alojamiento y configuración de dominios web",
+                    "ico": "",
+                    "cont": ".com .net .mx .org .com.mx",
+                    "img": ""
+                },
+                {
+                    "tit": "Sitios web sencillos",
+                    "ico": "",
+                    "cont": "Desarrollamos desde sitios web sencillos hasta complejos sistemas en la nube para administrar tu empresa o negocio.",
+                    "img": ""
+                },
+                {
+                    "tit": "Paquetes web",
+                    "ico": "",
+                    "cont": "Paquete de página web, hosting y dominio a un super precio (Cpanel incluído)",
+                    "img": ""
+                },
+                {
+                    "tit": "Cartificado SSL",
+                    "ico": "",
+                    "cont": "Certificados SSL incluídos cuando contratas una página",
+                    "img": ""
+                },
+                {
+                    "tit": "Diseño gráfico y digital",
+                    "ico": "",
+                    "cont": "Diseño gráfico a la medida",
+                    "img": ""
+                },
+                {
+                    "tit": "Tarjetas de presentación",
+                    "ico": "",
+                    "cont": "Tarjetas de presentación (diseño e impresión)",
+                    "img": ""
+                }
+            ]
+        }],
+        "test": [{
+            "tit": "Testimonios",
+            "tst": [
+                {}
+            ]
+        }],
+        "price": [{
+            "tit": "Costos",
+            "paq": [{
+                    "id": "",
+                    "nom": "Básico",
+                    "price": "",
+                    "time": "Anual",
+                    "list": [{
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "nom": "Popular",
+                    "price": "",
+                    "time": "Anual",
+                    "list": [{
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "",
+                    "nom": "Premium",
+                    "price": "",
+                    "time": "Anual",
+                    "list": [{
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        },
+                        {
+                            "line": ""
+                        }
+                    ]
+                }
+            ]
+        }]
+    }]
+}

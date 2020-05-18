@@ -1,0 +1,37 @@
+{
+    "name": "flylancer",
+    "version": "1.0.0",
+    "description": "Sitio web de Flylancer",
+    "main": "app.js",
+    "author": "Flylancer",
+    "license": "ISC",
+    "scripts": {
+        "start": "node ./app.js",
+        "dev": "nodemon ./app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.4.1",
+        "connect-flash": "^0.1.1",
+        "cookie-parser": "^1.4.5",
+        "dotenv": "^8.2.0",
+        "ejs": "^3.0.2",
+        "express": "^4.17.1",
+        "express-back": "0.0.2",
+        "express-ejs-layouts": "^2.5.0",
+        "express-session": "^1.17.0",
+        "express-validator": "^5.3.1",
+        "hbs": "^4.1.0",
+        "i18n": "^0.8.5",
+        "jquery": "^3.4.1",
+        "nodemailer": "^6.4.6",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "pg": "^8.0.0",
+        "popper.js": "^1.16.1",
+        "sequelize": "^5.21.5"
+    }
+}

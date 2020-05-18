@@ -1,0 +1,29 @@
+{
+    "nav":[
+        {
+            "tit": "Inicio",
+            "href": "home",
+            "opc": "same"
+    },
+        {
+            "tit": "Acerca",
+            "href": "about",
+            "opc": "same"
+    },
+        {
+            "tit": "Servicios",
+            "href": "servs",
+            "opc": "same"
+    },
+        {
+            "tit": "Portafolio",
+            "href": "galery",
+            "opc": "same"
+    },
+        {
+            "tit": "Contacto",
+            "href": "contact",
+            "opc": "same"
+    }
+    ]
+}

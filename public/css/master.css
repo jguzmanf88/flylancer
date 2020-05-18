@@ -1,0 +1,10 @@
+@import "animate.css";
+@import "bootstrap.css";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "style.css";
+@import "fonts.css";
+@import "responsive.css";
+@import "color/color.css";
+.tild {
+    text-transform: uppercase;
+}

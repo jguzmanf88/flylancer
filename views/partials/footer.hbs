@@ -1,0 +1,75 @@
+<footer id="footer">
+	<div class="max-container">
+		<div class="f1">
+			<div class="holder">
+				<strong class="logo-footer">
+					<a href="#">
+						<i class="icon">#</i>
+						<span class="img">
+							<img alt="EAGLEEYES" src="images/logo-footer.svg">
+						</span>
+					</a>
+				</strong>
+				<!-- footer-txt -->
+				<div class="footer-txt">
+					<div class="text">
+						<p>{{ foot.emp.[0].desc }}</p>
+						<div class="contact">
+							{{!-- <address><span class="yellow">A :</span> {{ foot.emp.[0].dir }}</address> --}}
+							<span class="email"><span class="yellow">E: </span><a
+									href="mailto:contacto@flylancer.net">contacto@flylancer.net</a></span>
+							<span class="tel"><span class="yellow">P: </span><a href="tel:4611824940">461 182 4940</a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="wpcf7">
+					<form action="#" class="wpcf7-form f-contact-form" enctype="multipart/form-data">
+						<h3>{{ foot.form.[0].tit }}</h3>
+						{{#each foot.form.[0].opc }}
+							{{#if input }}
+							<div class="rows">
+								<span class="wpcf7-form-control-wrap text-field-required">
+									<input type="{{ this.type }}" name="{{ this.name }}" value=""
+										class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required text-field-class wpcf7-use-title-as-watermark" placeholder="{{ this.place }}">
+								</span>
+							</div>
+							{{else}}
+								{{#if txtarea }}
+								<div class="rows">
+									<span class="wpcf7-form-control-wrap textarea">
+										<textarea name="{{ this.name }}"
+											class="wpcf7-form-control wpcf7-textarea textarea-class wpcf7-use-title-as-watermark"
+											rows="9" cols="39" placeholder="{{ this.place }}"></textarea>
+									</span>
+								</div>
+								{{else}}
+									<input id="submit" type="submit" value="{{ this.place }}">
+								{{/if}}
+							{{/if }}
+						{{/each}}
+					</form>
+					<div class="done-massage">
+						{{{ foot.form.[0].msg }}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f2">
+			<!-- sub-nav -->
+			<ul class="sub-nav">
+				{{#each foot.menu }}
+				<li><a href="{{#if opc }}javascript:void(0){{else}}{{ this.href }}{{/if}}" opc="{{#if opc }}{{ this.href }}{{/if}}">{{ this.tit }}</a></li>
+				{{/each}}
+{{!-- 				
+				<li><a href="#">Customer Service</a></li>
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Site Map</a></li>
+				<li><a href="#">Contact</a></li> --}}
+			</ul>
+			<span class="copyright">Flylancer</span>
+		</div>
+	</div>
+</footer>
