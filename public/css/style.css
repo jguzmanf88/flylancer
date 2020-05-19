@@ -2293,6 +2293,11 @@ a:focus {
     color: #252525;
     font-size: 36px;
     line-height: 36px;
+    cursor: pointer;
+}
+
+.info .txt-frame h3:hover {
+    color: #D4D434;
 }
 
 .info .txt-frame h3 a {

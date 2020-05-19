@@ -1,5 +1,26 @@
 {
-    "sld": [{}],
+    "sld": [{
+            "txt": "Que vuelen",
+            "light": "las ideas",
+            "add": "y las reencuentres",
+            "add2": "en la nube",
+            "img": "http://placehold.it/970x875"
+        },
+        {
+            "txt": "Cambia",
+            "light": "La mente",
+            "add": "cambia",
+            "add2": "tu imagen",
+            "img": "http://placehold.it/970x875"
+        },
+        {
+            "txt": "Si lo puedes",
+            "light": "imaginar",
+            "add": "lo podemos",
+            "add2": "crear",
+            "img": "http://placehold.it/970x875"
+        }
+    ],
     "emp": [{
         "about": [{
             "tit": "Acerca",
@@ -8,7 +29,35 @@
         }],
         "team": [{}],
         "work": [{
-            "tit": "Proyectos"
+            "tit": "Proyectos",
+            "proy": [{
+                    "tit": "Instituto de Arte y Cultura de Celaya",
+                    "type": "web",
+                    "cont": "Sitio web para el Instituto de Arte y Cultura de Celaya.",
+                    "href": "https://cultura-celaya.gob.mx/",
+                    "img": "artecelaya.webp"
+                }, {
+                    "tit": "LMSERSOL",
+                    "type": "web",
+                    "cont": "",
+                    "href": "",
+                    "img": "sersol.webp"
+                },
+                {
+                    "tit": "GRM",
+                    "type": "web",
+                    "cont": "Sitio web para empresa dedicada a la venta de equipos y piezas de motocicletas.",
+                    "href": "https://www.gruporaymotos.com/",
+                    "img": "grm.webp"
+                },
+                {
+                    "tit": "Mindrod",
+                    "type": "web",
+                    "cont": "Sitio web para",
+                    "href": "https://www.mindrod.com/",
+                    "img": "mindrod.webp"
+                }
+            ]
         }],
         "servs": [{
             "tit": "Servicios",

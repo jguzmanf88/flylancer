@@ -9,7 +9,7 @@ function index(res, lang) {
     data = readFile(lang, "index");
     nav = readFile(lang, "nav");
     foot = readFile(lang, "foot");
-    // res.send(data.emp[0].servs )
+    // res.send(data.emp[0].servs)
     res.render('index', {
         title: "",
         extStyle: "index",
